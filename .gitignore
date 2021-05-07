@@ -5,3 +5,4 @@ venv/
 .vscode/
 __pychache__/
 migrations/
+*.pyc
