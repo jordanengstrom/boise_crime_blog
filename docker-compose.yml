@@ -11,9 +11,9 @@ services:
       - POSTGRES_PASSWORD=postgres
   web:
     build: .
-    command: python manage.py runserver 0.0.0.0:8000
+    command: python boise_crime_blog/manage.py runserver 0.0.0.0:8000
     volumes:
-      - .:/app
+      - .:/boise_crime_blog
     ports:
       - "8000:8000"
     depends_on:
