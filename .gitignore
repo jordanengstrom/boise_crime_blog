@@ -6,3 +6,4 @@ venv/
 __pychache__/
 migrations/
 *.pyc
+volumes/
